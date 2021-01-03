@@ -1,4 +1,5 @@
 ﻿using System;
+using AulaPOO_PolimosrfismoSobrecarga.Classes;
 
 namespace AulaPOO_PolimosrfismoSobrecarga
 {
@@ -6,7 +7,14 @@ namespace AulaPOO_PolimosrfismoSobrecarga
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+           Funcionarios fun = new Funcionarios();
+
+           fun.Mostrar();
+           fun.Mostrar("Daniel");
+           fun.Mostrar(4);
+
+           Console.Beep();
+
         }
     }
 }
